@@ -34,6 +34,8 @@ loco();
 const lerp = (x, y, a) => x * (1 - a) + y * a;
 var main = document.querySelector("main")
 
+
+
 var fName = [
   "Instagram",
   "Threads",
@@ -1185,7 +1187,7 @@ const aboutpage = () => {
   // SHOW AboutPage
   var showallPages = document.querySelectorAll(".showallPages")
   showallPages.forEach((elem) => {
-
+    elem.childNodes[3].classList.add("contact")
     elem.childNodes[1]
       .addEventListener("click", () => {
 
@@ -1507,3 +1509,15 @@ const projectpage2 = () => {
 
 }
 projectpage2();
+
+var contact = document.querySelectorAll(".contact")
+contact.forEach((elem)=>{
+  elem
+  .addEventListener("click",()=>{
+    var contactA = document.createElement("a")
+    document.body.appendChild(contactA)
+    contactA.href = "mailto:nandlaljangir41@gmail.com"
+    contactA.click()
+    contactA.remove()
+  })
+})

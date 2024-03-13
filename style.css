@@ -507,6 +507,7 @@ main{
 
 .demoButton>a>span{
     display: flex;
+    align-items: center;
     color: var(--color2);
     font-size: 1rem;
     font-weight: 500;
@@ -1206,15 +1207,18 @@ main{
 }
 
 .pEM>.demoButton>a{
-    height: .9rem;
+    height: 1rem;
     /* background-color: red; */
 }
 .pEM>.demoButton>a>span{
     font-size: .7rem;
 }
 
+.pEM>.demoButton>a>:nth-child(2){
+    margin-top: -.3rem;
+}
+
 .pEM>.demoButton>a>span>i{
     margin-top: -.1rem;
     font-weight: 100;
-    transform: rotate(45deg);
 }
