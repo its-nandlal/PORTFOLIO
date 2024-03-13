@@ -1,0 +1,283 @@
+@media screen and (max-width: 1252px) {
+    .aHeadding::before {
+        top: -13rem;
+        right: -6rem;
+        font-size: 32rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .pBox {
+        width: 22rem;
+        height: 17rem;
+    }
+
+    .show>canvas {
+        transform: translateX(-50%) scale(1.4);
+    }
+}
+
+@media screen and (max-width: 943px) {
+
+    .showProject {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .pBox {
+        width: 70vw;
+        height: 50vw;
+    }
+}
+
+@media screen and (min-height: 815px) {
+    .aipageBack{
+       top: 42vh;
+    }
+}
+@media screen and (min-height: 830px) {
+    .aipageBack{
+       top: 39vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .aipageBack{
+       transform: translate(-50%, -50%) scale(1.25);
+     }
+
+    .cursure {
+        display: none;
+    }
+
+    .rightBtns {
+        display: none;
+    }
+
+    .menuContant {
+        position: absolute;
+        left: 25%;
+        bottom: 12%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .MContactBox {
+        height: fit-content;
+        width: fit-content;
+        margin-left: 7%;
+    }
+
+    .MContactBox1 {
+        position: unset;
+        margin: 1rem 0;
+        margin-left: 10%;
+    }
+
+    .MContactBox2 {
+        padding: 0;
+    }
+
+    .Box1elem {
+        position: unset;
+        flex-wrap: wrap;
+        padding-right: 2rem;
+    }
+
+    .nav_box {
+        padding-top: 2rem;
+    }
+
+    .show_project>h1{
+        font-size: 5.9vw;
+    }
+
+    .show_project>h1>span>svg{
+        width: 6.9vw;
+        height: 6.9vw;
+    }
+
+    .project_seet>h1 {
+        font-size: 1.7rem;
+    }
+
+    .project_seet>p {
+        font-size: 0.8rem;
+    }
+
+    .seet_em {
+        top: 110%;
+    }
+
+    .demoButton>a>:nth-child(1) {
+        margin-top: .2rem;
+    }
+
+    .demoButton>a>:nth-child(2) {
+        margin-top: -.3rem;
+    }
+
+    .demoButton>a>span {
+        font-size: 0.75rem;
+    }
+
+    .demoButton>a>span>i {
+        font-size: 0.8rem;
+    }
+
+    .headding_follow>h4{
+        padding-left: 1rem;
+    }
+
+    .f_elemTop{
+        padding: 2.5rem 1rem;
+    }
+
+    .sic_images {
+        width: 80vh;
+        height: 75%;
+    }
+
+    .footer {
+        height: 50vh;
+        flex-direction: unset;
+        align-items: flex-start;
+    }
+
+    .footer_elem{
+        margin-top: 7%;
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .show>canvas {
+        top: unset;
+        bottom: 2%;
+        height: 80%;
+        transform: translateX(-50%) scale(1.95);
+    }
+
+    .inner_project {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 0 0 !important;
+        padding-top: 2rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .innerP_left {
+        width: 75%;
+    }
+
+    .innerP_right {
+        width: 75%;
+        height: 80%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .rsection>p{
+        width: 95% !important;
+    }
+
+    .nav_box {
+        gap: .5rem;
+    }
+
+    .pInnerpage {
+        width: 93%;
+    }
+
+    .aInnerPage{
+        width: 93%;
+    }
+
+    .pBox {
+        width: 100%;
+        height: 50%;
+    }
+
+    .show>canvas {
+        transform: translateX(-50%) scale(2.4);
+    }
+
+    .innerP_left {
+        width: 87%;
+    }
+
+    .innerP_right {
+        width: 90%;
+        height: 80%;
+    }
+
+    .sic_images {
+        width: 70vh;
+        height: 67%;
+    }
+
+    .footer_elem{
+        font-size: 150%;
+    }
+
+    .btn_top_text>span{
+        font-size: 1.5rem;
+        margin-top: .2rem;
+    }
+
+    .btn_top_text>:nth-child(2){
+        margin-top: .0rem;
+    }
+
+    .fContact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+    .fc_Left{
+        justify-content: center;
+        border-right: unset;
+        border-bottom: 1px solid #000;
+        padding-bottom: .5rem;
+    }
+
+    .fc_Right{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .rsection{
+        top: 65%;
+    }
+
+    .rbtnTop {
+        right: 3%;
+    }
+
+    .burgurBtn {
+        width: 2.65rem;
+    }
+
+    .boxA {
+        font-size: .9rem;
+    }
+
+}
