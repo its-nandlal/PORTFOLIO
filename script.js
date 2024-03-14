@@ -1028,6 +1028,7 @@ var footer = document.querySelector(".footer")
 var divImg = [
   "images/showme2.jpg",
   "images/showme3.jpg",
+  "images/showme4.jpg",
 ]
 
 const footerEffect = () => {
@@ -1276,6 +1277,9 @@ const projectpage2 = () => {
     "images/img3.jpg",
     "images/img4.jpg",
     "images/img5.jpg",
+    "images/img6.jpg",
+    "images/img7.png",
+    "images/img8.jpg",
   ]
 
   var pName = [
@@ -1283,7 +1287,10 @@ const projectpage2 = () => {
     "CUBERTO",
     "THISISMAGMA",
     "APPLE VISION PRO",
-    "INSTAGRAM"
+    "INSTAGRAM",
+    "REJOUICE",
+    "THE BUBBLE GAME",
+    "NAVERLAND-AGENCY"
   ]
 
   var pLink = [
@@ -1291,7 +1298,10 @@ const projectpage2 = () => {
     "https://its-nandlal.github.io/cuberto.com/",
     "https://its-nandlal.github.io/MAGMA/",
     "https://its-nandlal.github.io/APPLE-VISON-PROO/",
-    "https://its-nandlal.github.io/INSTAGRAM-CLONE/"
+    "https://its-nandlal.github.io/INSTAGRAM-CLONE/",
+    "https://its-nandlal.github.io/REJOUICE/",
+    "https://its-nandlal.github.io/bubble-game/",
+    "https://its-nandlal.github.io/NAVERLAND-AGENCY/"
   ]
 
 
