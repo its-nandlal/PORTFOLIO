@@ -30,11 +30,16 @@ body{
     --color2: #000;
     --montserrat:  "Montserrat", sans-serif;
     --inter: "Inter", sans-serif;
-    --signature: "holligate Signature demo";
+    --signature: signature;
     --trfO: bottom left;
     --trSX: 0;
     --rotatLeft: 10deg;
     --rotatRight: -10deg;
+}
+
+@font-face {
+    font-family: signature;
+    src: url(font/holligate-signature-demo.regular.ttf);
 }
 
 .cursure{
